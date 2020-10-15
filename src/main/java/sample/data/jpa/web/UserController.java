@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import sample.data.jpa.domain.User;
 import sample.data.jpa.service.UserDao;
 
+@RequestMapping("/oldUser")
 @Controller
 public class UserController {
 
